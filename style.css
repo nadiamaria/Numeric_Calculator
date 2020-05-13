@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+}
+
+body{
+    background-color: #35193d;
+}
+
+header {
+    background:#655a69;
+    padding: 20px;
+    text-align: center;
+}
+
+header > h1 {
+    font-family: 'Comic Neue', cursive;
+}
+
+.box{
+    top: 115px;
+    margin: 20px auto;
+    padding: 2px;
+    text-align: center;
+    width: 315px;
+    height: 435px;
+    position: relative;
+    background-color: #8967a3;
+    border: 1px solid white;
+    box-shadow: 5px 5px 4px 1px #65396e;
+    border-radius: 10px;
+}
+
+.button{
+    width: 70px;
+    height: 60px;
+    margin-top: 4px;
+    font-size: 20px;
+    background-color: #744378;
+    font-family: 'Do Hyeon', sans-serif;
+    border-radius: 10px;
+}
+
+.button:hover{
+    background-color: #602e63;
+    font-weight: bolder;
+    border: 1px solid #502e63;
+}
+
+#display1{
+    padding-top: 15px;
+    padding-right: 16px;
+    text-align: end;
+    height: 50px;
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+#display2{
+    padding-top: 6px;
+    padding-right: 16px;
+    text-align: end;
+    height: 50px;
+    font-size: 30px;
+}
+
+.display{
+    background-color: #a588ba;
+    height: 100px;
+    border-radius: 10px;
+    margin: 3px;
+    box-shadow: inset 0px 0px 5px 4px rgba(131,68,135,0.93);
+}
+
+#inc16{
+    width: 70px;
+    height: 120px;
+    margin-top: 4px;
+    font-size: 20px;
+    background-color: #744378;
+    font-family: 'Do Hyeon', sans-serif;
+    border-radius: 10px;
+}
+
+#da{
+    width: 315px;
+    height: 200px;
+    padding: 2px 8px 8px 8px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
